@@ -1,0 +1,424 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna
+           1,098,790 sequences; 2,671,072,510 total letters
+
+
+
+Query= exon_1
+
+Length=79
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  107     7e-22
+
+
+
+Query_1          12     AGACAGACGCCATGAGGGCTCCACTGCTCCTGGGGGCCCTGCTGGTGAGCCTGGAGTCAG  71
+RJWK010023481.1  10940  .....................TG.............T.......................  10881
+
+Query_1          72     CGGTTT  77
+RJWK010023481.1  10880  ......  10875
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 159011730000
+
+
+Query= exon_2
+
+Length=58
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  75.8    2e-12
+
+
+
+Query_2          1      ACTCCACCTTTAAAAGCCCCCAAGCAGCATAAGCTCATAGAGAGCGAGCACACAGTGG  58
+RJWK010023481.1  10506  ..........GG........T............T..........T.............  10449
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 103357624500
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  115     4e-24
+
+
+
+Query_3          7     CTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATCACAAAT  66
+RJWK010023481.1  2164  .......C..................T......A.......T..................  2105
+
+Query_3          67    GCATCCACAGAGGCCGGCCCGGCCCC  92
+RJWK010023481.1  2104  .T............T.....A.....  2079
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 214665835500
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  99.6    1e-19
+
+
+
+Query_4          1     GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGG--CATACTGCCTGGAGCCA  58
+RJWK010023481.1  1359  ...............-.......................T.AG.................  1301
+
+Query_4          59    AAGAAAGTGAAAG  71
+RJWK010023481.1  1300  .............  1288
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 137810166000
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  133     2e-29
+
+
+
+Query_5          1     ATCACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATG  60
+RJWK010023481.1  1005  ........G..G......G............A........................A.CA  946
+
+Query_5          61    GCCCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAG  107
+RJWK010023481.1  945   ....C...................A............G.........  899
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 243817986000
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  137     1e-30
+
+
+
+Query_6          3    AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+RJWK010023481.1  753  ................T......TTG...-......G....................C..  695
+
+Query_6          63   GGGCTGGCAGGTGTG--GCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCAC  120
+RJWK010023481.1  694  .A.............TA...........G.....G...C.....G...............  635
+
+Query_6          121  TGGCCAGCCAGG  132
+RJWK010023481.1  634  ............  623
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 299472091500
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  113     2e-23
+
+
+
+Query_7          8    TACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCTGTGCCG  67
+RJWK010023481.1  452  .....G...A........T..............A..........G............A..  393
+
+Query_7          68   TTGCCCCACCGGCTACGCGGGACGCTTGTGCGA  100
+RJWK010023481.1  392  ......T..G........T..............  360
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 227916813000
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010023481.1 Platanista minor isolate BS66 PlaMin_flattened_li...  238     7e-61
+
+
+
+Query_8          1    ACCTCAAGGCGAACTGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCC  60
+RJWK010023481.1  208  ............................................................  149
+
+Query_8          61   GCACCACGCTCTCGGGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATA  120
+RJWK010023481.1  148  .G..T.A.....AA............C........G.......................G  89
+
+Query_8          121  TGACCGCAGAGCAAGCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+RJWK010023481.1  88   ..............A........G..A.A......G................  37
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 402662699920
+
+
+Query= exon_9
+
+Length=206
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 492731988060
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010016818.1 Platanista minor isolate BS66 PlaMin_flattened_li...  258     1e-66
+
+
+
+Query_10         1      CCTGGGCTTCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCG  60
+RJWK010016818.1  34689  .............................AA......G....G..C..........A...  34630
+
+Query_10         61     TGGGCCCGGCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCG  120
+RJWK010016818.1  34629  C.....T......C..T......T....C.A.....T.......T..........C...T  34570
+
+Query_10         121    TCGGAGGACTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCC  180
+RJWK010016818.1  34569  ....G..........T............G..T.................G..GCA.....  34510
+
+Query_10         181    GAAATTTCTGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCC  240
+RJWK010016818.1  34509  A..........A...........G.......C......................G.....  34450
+
+Query_10         241    TGCAGAACCG  250
+RJWK010016818.1  34449  ..........  34440
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 609292243300
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010016818.1 Platanista minor isolate BS66 PlaMin_flattened_li...  194     7e-48
+
+
+
+Query_11         5      GCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGAGCAG  64
+RJWK010016818.1  34188  .........................C........C.................A.......  34129
+
+Query_11         65     TGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGC-CCATCACCTA  123
+RJWK010016818.1  34128  ............................C..................A.GTT........  34069
+
+Query_11         124    CCAGCACGACCTGG  137
+RJWK010016818.1  34068  ..............  34055
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 312723069000
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010016818.1 Platanista minor isolate BS66 PlaMin_flattened_li...  208     5e-52
+
+
+
+Query_12         1      CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+RJWK010016818.1  33959  .........T......G........T...................C..............  33900
+
+Query_12         61     AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+RJWK010016818.1  33899  ....A.C................G......G....................C........  33840
+
+Query_12         121    AAGTGGCCGGCTGGGGTTACCAGTT  145
+RJWK010016818.1  33839  .................C.......  33815
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 344382572300
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010016818.1 Platanista minor isolate BS66 PlaMin_flattened_li...  115     6e-24
+
+
+
+Query_13         6      GGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGCGCTGC  65
+RJWK010016818.1  33241  .......G................T..A..............A..C....G...A.....  33182
+
+Query_13         66     TCCGCCCCCGCCGTGC-ACGGAGCAGCCTTCA-----------CCCGCGGCATGCTCTGC  113
+RJWK010016818.1  33181  ..........A.....A.......C.......CCCCCCCCCAC...C.............  33122
+
+Query_13         114    GCTGGCTTCCTTGAGGGCGGCACTGACGCGTGCCAG  149
+RJWK010016818.1  33121  ...........C.....T....G.............  33086
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 341733475590
+
+
+Query= exon_14
+
+Length=280
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RJWK010016818.1 Platanista minor isolate BS66 PlaMin_flattened_li...  311     1e-82
+
+
+
+Query_14         14     GCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTGCGAGGCATCGTCA  73
+RJWK010016818.1  32981  ..............................A.....AG..........C...........  32922
+
+Query_14         74     GCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACCGACGTGGCCAACT  133
+RJWK010016818.1  32921  .......T..A............T..C...T.........A.........A.........  32862
+
+Query_14         134    ACCTAGCCTGGATCCAGGAGCACACCTCTTTCTGACCG-CCTGGGACTCATCTTTCCCTC  192
+RJWK010016818.1  32861  ...............G..........G...C.......C..C.......G..........  32802
+
+Query_14         193    CTGGGCAATTCTGGGATGGAAGCGTGGCTGAGGCGTGATCATGGATAGCAAGGACTGTGT  252
+RJWK010016818.1  32801  ......G.......A....................A..................A...T.  32742
+
+Query_14         253    TCCATCCCCCCCA  265
+RJWK010016818.1  32741  .....T.......  32729
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 688765144600
+
+
+  Database: GCA_004363435.1_PlaMin_v1_BIUU_genomic.fna
+    Posted date:  Feb 4, 2026  4:37 PM
+  Number of letters in database: 2,671,072,510
+  Number of sequences in database:  1,098,790
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

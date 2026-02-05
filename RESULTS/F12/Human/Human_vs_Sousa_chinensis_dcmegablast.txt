@@ -1,0 +1,405 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_007760645.1_ASM776064v1_genomic.fna
+           23,368 sequences; 2,338,882,461 total letters
+
+
+
+Query= exon_1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  106     2e-21
+
+
+
+Query_1         1       ACTCCTGGATAGGCAGCTGGACCAACGGACGGATGCCATGAGGGCTCTGCTGCTCCTGGG  60
+RWJT01007588.1  452512  .........C.A.TG.T.........A...A..CC.........................  452453
+
+Query_1         61      GTTCCTGCTGGTGAGCTTGGAGTCAACACTT  91
+RWJT01007588.1  452452  .G..............C........G..G..  452422
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 151983311285
+
+
+Query= exon_2
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 70146844710
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  120     1e-25
+
+
+
+Query_3         1       TTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACC  60
+RWJT01007588.1  445740  .............T.......................T.........T..........T.  445681
+
+Query_3         61      ACAAATGTACCCACAAGGGCCGGCCAGGCCC  91
+RWJT01007588.1  445680  ......T..T.....GA...T....T.....  445650
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 166012540019
+
+
+Query= exon_4
+
+Length=71
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 98204601138
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  130     2e-28
+
+
+
+Query_5         3       CACTGCAGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCGGC  62
+RWJT01007588.1  444574  ................AA................A....................AT...  444515
+
+Query_5         63      CCCCACTGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAG  111
+RWJT01007588.1  444514  ..A.....CA........G.T...T.......G..G...G......G..  444466
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 189392695101
+
+
+Query= exon_6
+
+Length=132
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 238494504942
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  89.7    2e-16
+
+
+
+Query_7         2       CTGCCGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCT  61
+RWJT01007588.1  444032  ......T........A..T...A.......CA........C...C..............C  443973
+
+Query_7         62      GTGCCACTGCCCGGTGGGCTACACCGGAGCCTTCTGCGACGTGG  105
+RWJT01007588.1  443972  ....AGT.A...CAC.......G.T...CG...G.....A....  443929
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 177703563964
+
+
+Query= exon_8
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  174     1e-41
+
+
+
+Query_8         26      CCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGCC  85
+RWJT01007588.1  443751  ..A...................G.....C....T.A.....G......A...........  443692
+
+Query_8         86      GTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGACT  145
+RWJT01007588.1  443691  .........C..........C.T....T.....C..A..........T...TG..A....  443632
+
+Query_8         146     GGGCGGCCACGCCTTCTGCCG  166
+RWJT01007588.1  443631  .....A...............  443611
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 317992673256
+
+
+Query= exon_9
+
+Length=218
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 437235555911
+
+
+Query= exon_10
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  208     7e-52
+
+
+
+Query_10        18      GAGCAGCCGCCTTCCCTGACCAGGAACGGCCCACTGAGCTGCGGGCAGCGGCTCCGCAAG  77
+RWJT01007588.1  443181  .......G.A..C.....C....CGCG.....GGC.G....T..A.G.T......A...A  443122
+
+Query_10        78      AGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTGGCGCTACGCGGGGCGCACCCC  137
+RWJT01007588.1  443121  C.G.....C...C...G.........C..G..A...A.......C.C.............  443062
+
+Query_10        138     TACATCGCCGCGCTGTACTGGGGCCACAGTTTCTGCGCCGGCAGCCTCATCGCCCCCTGC  197
+RWJT01007588.1  443061  .................ACA......A.A.......A......................T  443002
+
+Query_10        198     TGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCG  232
+RWJT01007588.1  443001  ..A........C..G...............A....  442967
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 469969768653
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  154     7e-36
+
+
+
+Query_11        2       CCCGCACCCGAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCACAGCTGTGAG  61
+RWJT01007588.1  442703  ..T..G..A.....G.....A.................C....A......G....A....  442644
+
+Query_11        62      CCGTGCCAGACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCGC-CCGTCAG  120
+RWJT01007588.1  442643  .A..........C..........TG......C.C..................GTTA...C  442584
+
+Query_11        121     CTACCAGCACGACCTGG  137
+RWJT01007588.1  442583  .................  442567
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 250185412047
+
+
+Query= exon_12
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  124     1e-26
+
+
+
+Query_12        1       CTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGCTGCGCGCTCCTGTCGCCTTACGTTC  60
+RWJT01007588.1  442471  .....G.......G......AGC..T..A...T.........A..C........T.....  442412
+
+Query_12        61      AGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACCCTCCGA----GA--CCACGCTCTGCC  114
+RWJT01007588.1  442411  ....A...........G..TA.......C.TC..GG....ATCT..AG..G........G  442352
+
+Query_12        115     AGGTGGCCGGCTGGGGCCACCAGTTCGA  142
+RWJT01007588.1  442351  .A..............T........A..  442324
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 266552681994
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  148     1e-33
+
+
+
+Query_13        10      AATATGCCAGCTTCCTGCAGGAGGCGCAGGTACCGTTCCTCTCCCTGGAGCGCTGCTCAG  69
+RWJT01007588.1  441749  .....T..............T..A.T.....G...C..A..CAT.C............C.  441690
+
+Query_13        70      CCCCGGACGTGCACGGATCCTCCATCCT-CCCCGGCATGCTCTGCGCAGGGTTCCTCGAG  128
+RWJT01007588.1  441689  ....C............G..G..T..A.C..................T..C.........  441630
+
+Query_13        129     GGCGGCACCGATGCGTGCCAG  149
+RWJT01007588.1  441629  ..T.....T..C.........  441609
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 278243589099
+
+
+Query= exon_14
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RWJT01007588.1 Sousa chinensis isolate SCSF scaffold168, whole ge...  262     5e-68
+RWJT01015473.1 Sousa chinensis isolate SCSF scaffold45, whole gen...  70.7    6e-10
+
+
+
+Query_14        1         GGTGATTCCGGAGGCCCGCTGGTGTGTGAGGACCAAGCTGCAGAGCGCCGGCTCACCCTG  60
+RWJT01007588.1  441517    ...A.C...A.G.....T..............TG.GA............A.....T....  441458
+RWJT01015473.1  20972634                                                          ....  20972631
+
+Query_14        61        CAAGGCATCATCAGCTGGGGATCGGGCTGTGGTGACCGCAACAAGCCAGGCGTCTACACC  120
+RWJT01007588.1  441457    .G.......G..........T..A..T..C..C....A.C...T......T..A......  441398
+RWJT01015473.1  20972630  T.C..................GAC.....C..GC.GTT.........C............  20972571
+
+Query_14        121       GATGTGGCCTACTACCTGGCCTGGATCCGGGAGCACACCGTTTCCTGATTGCTCAGGGAC  180
+RWJT01007588.1  441397    ..C......A.......A.....................AC.......CCA.C.C.....  441338
+RWJT01015473.1  20972570  CGC...A..CGT...G...A.......                                   20972544
+
+Query_14        181       TCATCTTTCCCTCCTTGGTGATTCCGCAGTGAGAGAGTGGCTGGGG------CATGGAAG  234
+RWJT01007588.1  441337    ..G............G..CA....T.G.A..GA..T.......A..CTTGAT......TA  441278
+
+Query_14        235       GCAA-GATTGTGTCCCATT-CCCCCAGTGCGGCCAGCTCCGCGCCAGG-ATGGCGCAGGA  291
+RWJT01007588.1  441277    ....G..A.....T.....C.......C..T......C.G..T.....C.....AT.-..  441219
+
+Query_14        292       ACTCAATAAAGTGC-TTTGAAAATGCT  317
+RWJT01007588.1  441218    .A...G........T......G.....  441192
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 673389519264
+
+
+  Database: GCA_007760645.1_ASM776064v1_genomic.fna
+    Posted date:  Feb 4, 2026  4:38 PM
+  Number of letters in database: 2,338,882,461
+  Number of sequences in database:  23,368
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

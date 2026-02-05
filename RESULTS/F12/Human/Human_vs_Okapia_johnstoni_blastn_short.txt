@@ -1,0 +1,416 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna
+           3,653 sequences; 2,387,734,228 total letters
+
+
+
+Query= exon_1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  91.7    5e-17
+
+
+
+Query_1     18        TGGACCAACGGACGGATGCCATGAGGGCTCTGCTGCTCCTGGGGTTCCTGCTGGTGAGCT  77
+CM044316.1  33737152  .........A...A..C...........................GC.............C  33737093
+
+Query_1     78        TGGAGTCAAC  87
+CM044316.1  33737092  ..........  33737083
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 179074861575
+
+
+Query= exon_2
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 93118928019
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  117     9e-25
+
+
+
+Query_3     1         TTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACC  60
+CM044316.1  33733528  ...................A......................T...............T.  33733469
+
+Query_3     61        ACAAATGTACCCACAAGGGCCGGCCAGGCCC  91
+CM044316.1  33733468  .T.....C.T.....GA..............  33733438
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 193400850501
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  85.7    2e-15
+
+
+
+Query_4     1         GTGTGCTACCACCCCCAACTTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAA  60
+CM044316.1  33732500  .........T..............GA.......A.......C......CC..........  33732441
+
+Query_4     61        GAAAGTGAAAG  71
+CM044316.1  33732440  ...........  33732430
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 124158570692
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  85.7    3e-15
+
+
+
+Query_5     1         ACCACTGCAGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCCAAGCG  60
+CM044316.1  33732145  ..................AT...........G.......G................GAT.  33732086
+
+Query_5     61        GCCCCCACTGTCTCTGTCCACAACACCTCACTGGAAACCACTGCCAGAAAG  111
+CM044316.1  33732085  ....A.....CA.....A..G.T.G.T.......G..G.............  33732035
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 219665163532
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  79.8    3e-13
+
+
+
+Query_6     1         AGAAGTGCTTTGAGCCTCAGCTTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAA  60
+CM044316.1  33731912  ................C...T..T...AAC.C......G.......A......C....G.  33731853
+
+Query_6     61        CTGAGCAAGCAGCTGTGGCCAGATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGC  120
+CM044316.1  33731852  T.....C.....G........AG.................GA.......A...A..ACA.  33731793
+
+Query_6     121       TGGCCAGCCAGG  132
+CM044316.1  33731792  ............  33731781
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 269806124773
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  65.9    3e-09
+
+
+
+Query_7     2         CTGCCGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCT  61
+CM044316.1  33731630  ...............A..T...A.C.....CA........C...C...............  33731571
+
+Query_7     62        GTGCC  66
+CM044316.1  33731570  .....  33731566
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 205339174606
+
+
+Query= exon_8
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  129     4e-28
+
+
+
+Query_8     26        CCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGCC  85
+CM044316.1  33731331  ......A...............A.....G....T.....G..C..C..A.......T.T.  33731272
+
+Query_8     86        GTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGACT  145
+CM044316.1  33731271  .........C............T....T.....C..A..A....T..T............  33731212
+
+Query_8     146       GGGCGGCCACGCCTTCTGCCG  166
+CM044316.1  33731211  .....A...............  33731191
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 348598530528
+
+
+Query= exon_9
+
+Length=218
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  63.9    3e-08
+
+
+
+Query_9     1         GAACCCGGACAACGACATCCGCCCGTGGTGCTTCGTGCTGAACCGCGACCGGCTGAGCTG  60
+CM044316.1  33731089  ......C..........C................A.TTG...AG.......A........  33731030
+
+Query_9     61        GGAGTACTGCGACCTGGCACAGTGCCAG  88
+CM044316.1  33731029  .A.T......CG........C.......  33731002
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 472756911264
+
+
+Query= exon_10
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  178     7e-43
+
+
+
+Query_10    63        CAGCGGCTCCGCAAGAGTCTGTCTTCGATGACCCGCGTCGTTGGCGGGCTGGTGGCGCTA  122
+CM044316.1  33730744  ..............ATCG.....C...C...A.........C..A..A...........C  33730685
+
+Query_10    123       CGCGGGGCGCACCCCTACATCGCCGCGCTGTACTGGGGCCACAGTTTCTGCGCCGGCAGC  182
+CM044316.1  33730684  .C.......................................ACA................  33730625
+
+Query_10    183       CTCATCGCCCCCTGCTGGGTGCTGACGGCCGCTCACTGCCTGCAGGACCG  232
+CM044316.1  33730624  ..............T.....A.....T..A...............A....  33730575
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 506184167616
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  135     5e-30
+
+
+
+Query_11    2         CCCGCACCCGAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCACAGCTGTGAG  61
+CM044316.1  33730323  ........G.....G.....C.................C....AC.....G.........  33730264
+
+Query_11    62        CCGTGCCAGACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCGCCCGTCAGC  121
+CM044316.1  33730263  .A..........C....A.....AGA.......C................C...A...C.  33730204
+
+Query_11    122       TACCAGCACGACCTGG  137
+CM044316.1  33730203  ................  33730188
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 281744448878
+
+
+Query= exon_12
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  63.9    2e-08
+
+
+
+Query_12    1         CTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGCTGCGCGCTCCTGTCGCCTTACGTTC  60
+CM044316.1  33730092  .....G.......G......AGC..A......T.........A..C........T.....  33730033
+
+Query_12    61        AGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACCCTCCGAGACCACGCTCTGCCAGGTGG  120
+CM044316.1  33730032  ....A...........                                              33730017
+CM044316.1  33729978                                                  .....G......  33729967
+
+Query_12    121       CCGGCTGGGGCCACCAGTTCGAGG  144
+CM044316.1  33729966  ..........T.............  33729943
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 298458102625
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  83.8    2e-14
+
+
+
+Query_13    16        CCAGCTTCCTGCAGGAGGCGCAGGTACCGTTCCTCTCCCTGGAGCGCTGCTCAGCCCCGG  75
+CM044316.1  33729372  ..........A........T.G...G...C..A..GA..C............C.....C.  33729313
+
+Query_13    76        ACGTGCACGGATCCTCCATCCTCCCCGGCATGCTCTGCGCAGGGTTCCTCGAGGGCGGCA  135
+CM044316.1  33729312  ...........G..G..T..AC.GG...............T..C..............T.  33729253
+
+Query_13    136       CCGATGCGTGCCAG  149
+CM044316.1  33729252  ....C..C......  33729239
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 310396426730
+
+
+Query= exon_14
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM044316.1 Okapia johnstoni isolate TBG_1119_Moyo linkage group L...  95.6    1e-17
+
+
+
+Query_14    1         GGTGATTCCGGAGGCCCGCTGGTGTGTGAGGACCAAGCTGCAGAGCGCCGGCTCACCCTG  60
+CM044316.1  33729147  .....C...........T..............TG.GA.CC.T.......A.....T....  33729088
+
+Query_14    61        CAAGGCATCATCAGCTGGGGATCGGGCTGTGGTGACCGCAACAAGCCAGGCGTCTACACC  120
+CM044316.1  33729087  .G......AG..........C..A..T..C..CA.....TT......G..T..G......  33729028
+
+Query_14    121       GATGTGGCCTACTACCTGGCCTGGATCCGGGAGCACACCGTTTCCTGA  168
+CM044316.1  33729027  ..C......A.......A........T.............C.......  33728980
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 713910689232
+
+
+  Database: GCA_024291935.2_TBG_Okapi_asm_v1_genomic.fna
+    Posted date:  Feb 4, 2026  4:36 PM
+  Number of letters in database: 2,387,734,228
+  Number of sequences in database:  3,653
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

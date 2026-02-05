@@ -1,0 +1,409 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_017591445.1_ASM1759144v1_genomic.fna
+           2,096 sequences; 2,441,480,433 total letters
+
+
+
+Query= exon_1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  91.7    5e-17
+
+
+
+Query_1     18        TGGACCAACGGACGGATGCCATGAGGGCTCTGCTGCTCCTGGGGTTCCTGCTGGTGAGCT  77
+CM029954.1  65189330  .........A...C..C...........................GC.............C  65189389
+
+Query_1     78        TGGAGTCAAC  87
+CM029954.1  65189390  ..........  65189399
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 183108045675
+
+
+Query= exon_2
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 95216183751
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  125     4e-27
+
+
+
+Query_3     1         TTCTCACTGTCACCGGGGAGCCCTGCCACTTCCCCTTCCAGTACCACCGGCAGCTGTACC  60
+CM029954.1  65192951  ...................A......................................T.  65193010
+
+Query_3     61        ACAAATGTACCCACAAGGGCCGGCCAGGCCC  91
+CM029954.1  65193011  .T.....C.T.....GA..............  65193041
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 197756689329
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  85.7    2e-15
+
+
+
+Query_4     1         GTGTGCTACCACCCCCAACTTTGATCAGGACCAGCGATGGGGATACTGTTTGGAGCCCAA  60
+CM029954.1  65193890  .........T..............GA.......A.......C......CC..........  65193949
+
+Query_4     61        GAAAGTGAAAG  71
+CM029954.1  65193950  ...........  65193960
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 126954911668
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  77.8    9e-13
+
+
+
+Query_5     1         ACCACTGCAGCAAACACAGCCCCTGCCAGAAAGGAGGGACCTGTGTGAACATGCC  55
+CM029954.1  65194245  ..................AT...........G.......G...............  65194299
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 224612536028
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  71.9    6e-11
+
+
+
+Query_6     1         AGAAGTGCTTTGAGCCTCAGCTTCTCCGGTTTTTCCACAAGAATGAGATATGGTATAGAA  60
+CM029954.1  65194477  .......T........C...T..T...A...C......G.......A......C....GC  65194536
+
+Query_6     61        CTGAGCAAGCAGCTGTGGCCAGATGCCAGTGCAAGGGTCCTGATGCCCACTGCCAGCGGC  120
+CM029954.1  65194537  T...A.C.....G........AG.................GA.......A...A..ACA.  65194596
+
+Query_6     121       TGGCCAGCCAGG  132
+CM029954.1  65194597  ............  65194608
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 275882788817
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  65.9    3e-09
+
+
+
+Query_7     2         CTGCCGCACCAACCCGTGCCTCCATGGGGGTCGCTGCCTAGAGGTGGAGGGCCACCGCCT  61
+CM029954.1  65194759  ...............A..T...A.C.....CA........C...C...............  65194818
+
+Query_7     62        GTGCC  66
+CM029954.1  65194819  .....  65194823
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 209963892374
+
+
+Query= exon_8
+
+Length=166
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  137     2e-30
+
+
+
+Query_8     26        CCGCGGGCTCAGCTACCGCGGCCTGGCCAGGACCACGCTCTCGGGTGCGCCCTGTCAGCC  85
+CM029954.1  65195058  ......A...............G.....G....T.....G..C..C..A.......T.T.  65195117
+
+Query_8     86        GTGGGCCTCGGAGGCCACCTACCGGAACGTGACTGCCGAGCAAGCGCGGAACTGGGGACT  145
+CM029954.1  65195118  .........C............T....T.....C..A.......T..T............  65195177
+
+Query_8     146       GGGCGGCCACGCCTTCTGCCG  166
+CM029954.1  65195178  .....A...............  65195198
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 356450022898
+
+
+Query= exon_9
+
+Length=218
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  63.9    3e-08
+
+
+
+Query_9     1         GAACCCGGACAACGACATCCGCCCGTGGTGCTTCGTGCTGAACCGCGACCGGCTGAGCTG  60
+CM029954.1  65195300  ......C..........C................A.TTG...AG.......A........  65195359
+
+Query_9     61        GGAGTACTGCGACCTGGCACAGTGCCAG  88
+CM029954.1  65195360  .A.T......CG........C.......  65195387
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 483404825574
+
+
+Query= exon_10
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  170     2e-40
+
+
+
+Query_10    95        CCGCGTCGTTGGCGGGCTGGTGGCGCTACGCGGGGCGCACCCCTACATCGCCGCGCTGTA  154
+CM029954.1  65195677  .........C..A..A...........C.C..............................  65195736
+
+Query_10    155       CTGGGGCCACAGTTTCTGCGCCGGCAGCCTCATCGCCCCCTGCTGGGTGCTGACGGCCGC  214
+CM029954.1  65195737  .........ACA..............................T.....A.....T..G..  65195796
+
+Query_10    215       TCACTGCCTGCAGGACCG  232
+CM029954.1  65195797  .............A....  65195814
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 517584964756
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  143     2e-32
+
+
+
+Query_11    2         CCCGCACCCGAGGATCTGACGGTGGTGCTCGGCCAGGAACGCCGTAACCACAGCTGTGAG  61
+CM029954.1  65196083  ........G.....G.....C.................C....AC.....G.........  65196142
+
+Query_11    62        CCGTGCCAGACGTTGGCCGTGCGCTCCTACCGCTTGCACGAGGCCTTCTCGCCCGTCAGC  121
+CM029954.1  65196143  .A..........C....A.....AGA.......C....................A...C.  65196202
+
+Query_11    122       TACCAGCACGACCTGG  137
+CM029954.1  65196203  ................  65196218
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 288089991862
+
+
+Query= exon_12
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  69.9    3e-10
+
+
+
+Query_12    1         CTCTGTTGCGCCTTCAGGAGGATGCGGACGGCAGCTGCGCGCTCCTGTCGCCTTACGTTC  60
+CM029954.1  65196314  .....G.......G......AGC..A......T.........A..C........T.....  65196373
+
+Query_12    61        AGCCGGTGTGCCTGCCAAGCGGCGCCGCGCGACCC------TCCGAGACCACGCTCTGCC  114
+CM029954.1  65196374  ....A...........G..TA.......C..C...GCCGAA.....AG..G.AG.....G  65196433
+
+Query_12    115       AGGTGGCCGGCTGGGGCCACCAGTTCGAGG  144
+CM029954.1  65196434  ................T.............  65196463
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 305180076125
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  75.8    5e-12
+
+
+
+Query_13    56        GGAGCGCTGCTCAGCCCCGGACGTGCACGGATCCTCCATCCTCCCCGGCATGCTCTGCGC  115
+CM029954.1  65197065  ............C......-...........G..G..T..AC..G...............  65197123
+
+Query_13    116       AGGGTTCCTCGAGGGCGGCACCGATGCGTGCCAG  149
+CM029954.1  65197124  T..C..............T.....C..C......  65197157
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 317387279170
+
+
+Query= exon_14
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+CM029954.1 Giraffa camelopardalis rothschildi chromosome 6, whole...  95.6    1e-17
+
+
+
+Query_14    1         GGTGATTCCGGAGGCCCGCTGGTGTGTGAGGACCAAGCTGCAGAGCGCCGGCTCACCCTG  60
+CM029954.1  65197249  .....C...........T..............TG.GA.CC.T.......A.....T....  65197308
+
+Query_14    61        CAAGGCATCATCAGCTGGGGATCGGGCTGTGGTGACCGCAACAAGCCAGGCGTCTACACC  120
+CM029954.1  65197309  .G......AG..........C..A..T..C..CA.....TT......G..T..G......  65197368
+
+Query_14    121       GATGTGGCCTACTACCTGGCCTGGATCCGGGAGCACACCGTTTCCTGA  168
+CM029954.1  65197369  ..C......A.......A........T.............C.......  65197416
+
+
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Gapped
+Lambda      K        H
+    1.37    0.711     1.31 
+
+Effective search space used: 729990115387
+
+
+  Database: GCA_017591445.1_ASM1759144v1_genomic.fna
+    Posted date:  Feb 4, 2026  4:36 PM
+  Number of letters in database: 2,441,480,433
+  Number of sequences in database:  2,096
+
+
+
+Matrix: blastn matrix 1 -3
+Gap Penalties: Existence: 5, Extension: 2

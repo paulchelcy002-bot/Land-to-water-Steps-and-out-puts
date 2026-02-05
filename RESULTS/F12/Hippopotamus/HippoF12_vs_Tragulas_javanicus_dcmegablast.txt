@@ -1,0 +1,426 @@
+BLASTN 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+
+Database: GCA_004024965.2_ASM402496v2_genomic.fna
+           1,082,489 sequences; 2,589,955,488 total letters
+
+
+
+Query= exon_1
+
+Length=79
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 127928165350
+
+
+Query= exon_2
+
+Length=58
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 76789373880
+
+
+Query= exon_3
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  150     2e-34
+
+
+
+Query_3          1         TTCTCACTGTCACTGGGGAGCCCTGCCACTTCCCCTTCCTGTACCACCGGCAGCTGTATC  60
+PVHZ021082416.1  24269733  .............C.........................A.....G..............  24269674
+
+Query_3          61        ACAAATGCATCCACAGAGGCCGGCCCGGCCCCCGACCCTG  100
+PVHZ021082416.1  24269673  .......T........G........G..T...........  24269634
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 179023657260
+
+
+Query= exon_4
+
+Length=71
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  106     1e-21
+
+
+
+Query_4          1         GTGTGCTACCACCCCCAACTTCGAGAAGGATCAGCGATGGGCATACTGCCTGGAGCCAAA  60
+PVHZ021082416.1  24268961  .........T...........T........C..A.......................C..  24268902
+
+Query_4          61        GAAAGTGAAAG  71
+PVHZ021082416.1  24268901  ...........  24268891
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 107459658894
+
+
+Query= exon_5
+
+Length=111
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  157     2e-36
+
+
+
+Query_5          3         CACTGCAGCAAACACAACCCCTGCCAGAAGGGAGGGACCTGTGTGAACATGCCAGATGGC  62
+PVHZ021082416.1  24268604  .................T......A..........A..................C.....  24268545
+
+Query_5          63        CCACACTGCATCTGTCCAGATCCCTTCACTGGGAATCACTGCCAGCGAG  111
+PVHZ021082416.1  24268544  ...............G..........T........G.....T...A...  24268496
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 207155946258
+
+
+Query= exon_6
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  177     2e-42
+
+
+
+Query_6          3         AAGTGCTTTGAGCCCCAGCTTCTCCAGTTCTTCCAGCAGAATGAAATATGGCACAGGTTT  62
+PVHZ021082416.1  24268369  ...................................AG................T...C..  24268310
+
+Query_6          63        GGGCTGGCAGGTGTGGCCAAGTGCCAATGCAAAGGTTCGAATACCCAGTGCAAGCCACTG  122
+PVHZ021082416.1  24268309  .A..C.....................G.....G..CC.T...G....A............  24268250
+
+Query_6          123       GCCAGCCAGG  132
+PVHZ021082416.1  24268249  ..........  24268240
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 260863043436
+
+
+Query= exon_7
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  139     4e-31
+
+
+
+Query_7          2         CTGCCCTACCAACCCGTGTCTCAACGGGGGCAGCTGCCTGCAGGCGGAGGACCACCGCCT  61
+PVHZ021082416.1  24268088  .....GGG...............................AG.........G......T..  24268029
+
+Query_7          62        GTGCCGTTGCCCCACCGGCTACGCGGGACGCTTGTGCGACTTGG  105
+PVHZ021082416.1  24268028  ...............T...............C.A......G...  24267985
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 191811061350
+
+
+Query= exon_8
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  200     3e-49
+
+
+
+Query_8          15        TGCTACGACGACCGCGACCGCGGGCTCAGCTACCGCGGCGTGGCCCGCACCACGCTCTCG  74
+PVHZ021082416.1  24267824  .......................................CC.....AG...T....G..C  24267765
+
+Query_8          75        GGTGCACCCTGTGAGCCGTGGACCTCCGAGGCCACCTACTGGAATATGACCGCAGAGCAA  134
+PVHZ021082416.1  24267764  ..C.........C.AT.C...G.......................G....T.........  24267705
+
+Query_8          135       GCGCTGAACTGGGGCCTGGGCAACCACGCCTTCTGCCG  172
+PVHZ021082416.1  24267704  AT............A......G................  24267667
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 363162276156
+
+
+Query= exon_9
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  165     7e-39
+
+
+
+Query_9          2         AACCCGGACAACGACACCCGCCCGTGGTGCTTTGTTTGGAGAGGCGACCGACTGAGCTGG  61
+PVHZ021082416.1  24267569  .......................A........CA..........A...............  24267510
+
+Query_9          62        AATTACTGCCGCCTGGCACGGTGCCAGG-CGGGGCCCCCAAACCCTCCTCCGACCCGGAT  120
+PVHZ021082416.1  24267509  .....T.............CC....G..T..C...-------....T.........A..G  24267457
+
+Query_9          121       CCCCTCTGGCGACCAGCACTTGCCCTCGCCCTCGCTTTCCTCTTTG---------CAGTC  171
+PVHZ021082416.1  24267456  .A......AG.......G........T...TA.AG.GC...A..G.CAGAAACCT.....  24267397
+
+Query_9          172       CACGACCGAGGCCCCGCTTCAATCCCTGAC  201
+PVHZ021082416.1  24267396  ...C...C..A..........GC...C...  24267367
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 447369707575
+
+
+Query= exon_10
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  312     1e-82
+
+
+
+Query_10         1         CCTGGGCTTCTCCCACAGGCTGGTGCTCGCCGCCCGAACAGCAGATTCCCCTGCCCGGCG  60
+PVHZ021082416.1  24267277  ........C...G.....................A..GG.C....CG...G.....A...  24267218
+
+Query_10         61        TGGGCCCGGCGGGATGCGGACAGCGGCTGCGCAAACGGCTGTCCCCGCTGAGCCGTGTCG  120
+PVHZ021082416.1  24267217  CA...........C..T..T......TCC......T...................C....  24267158
+
+Query_10         121       TCGGAGGACTGGTGGCGCTCCCCGGGGCCCACCCCTACATCGCCGCGCTCTACTGGGGCC  180
+PVHZ021082416.1  24267157  .......C........T...........G..T.................G..........  24267098
+
+Query_10         181       GAAATTTCTGCGCCGGCAGCCTCATCGCCCCTTGTTGGGTGCTGACCGCGGCTCACTGCC  240
+PVHZ021082416.1  24267097  CCG.G..........................C..C.........................  24267038
+
+Query_10         241       TGCAGAACCG  250
+PVHZ021082416.1  24267037  ..........  24267028
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 559851234051
+
+
+Query= exon_11
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  203     2e-50
+
+
+
+Query_11         1         ACCCGCGCCGGAGGAGCTGACAGTGGTGCTCGGCCAGGACCGCCATAACCAGAGCTGTGA  60
+PVHZ021082416.1  24266785  ...............A.........................T..................  24266726
+
+Query_11         61        GCAGTGCCAGACGCTGGCCGTGCGCGCCTACCGCCTGCACGAGGCCTTCTCGCCCATCAC  120
+PVHZ021082416.1  24266725  ........................GA......T.G....T..............GG....  24266666
+
+Query_11         121       CTACCAGCACGACCTGG  137
+PVHZ021082416.1  24266665  .........T.......  24266649
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 273650447526
+
+
+Query= exon_12
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  184     2e-44
+
+
+
+Query_12         1         CTCTGGTGCGCCTGCAAGAGAGCGCGGAAGGCTGCTGCGCGCACCTGTCGCCTTTCGTTC  60
+PVHZ021082416.1  24266559  ...........T....G.....A..A..C..T............................  24266500
+
+Query_12         61        AGCCCGTGTGCCTGCCGAGTAGCACCGCCCACCCGGCCGAATCCGAAGCCGAGCTCTGCG  120
+PVHZ021082416.1  24266499  ....A...........A......G..T....A..T...A........---..........  24266443
+
+Query_12         121       AAGTGGCCGGCTGGGGTTACCAGTTCGAGG  150
+PVHZ021082416.1  24266442  .G..............GC............  24266413
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 306897698160
+
+
+Query= exon_13
+
+Length=149
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  168     1e-39
+
+
+
+Query_13         5         GGGGGAATATTCCAGCTTCCTGCAGGAGGCTCAGGTGCCGCTCCTCAGTCCCGAGCGCTG  64
+PVHZ021082416.1  24265847  ...C..C...........T....................A...A...A.G.A........  24265788
+
+Query_13         65        CTCCGCCCCCGCCGTGCACGGAGCAGCCTTCACCCGCGGCATGCTCTGCGCTGGCTTCCT  124
+PVHZ021082416.1  24265787  .........T.A.A....T.....C.......TGTCA...........T..C........  24265728
+
+Query_13         125       TGAGGGCGGCACTGACGCGTGCCAG  149
+PVHZ021082416.1  24265727  ............C............  24265703
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 304340217342
+
+
+Query= exon_14
+
+Length=280
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PVHZ021082416.1 Tragulus javanicus isolate US108 ScTR3Pl_1085798;...  272     1e-70
+
+
+
+Query_14         1         GGTGACTCTGGGGGCCCTCTGGTGTGTGAGGATGAGACCGCAGGGCGCCCCCTCATCCTG  60
+PVHZ021082416.1  24265610  ........C..A...................G.....A.C...A.....AG.....A...  24265551
+
+Query_14         61        CGAGGCATCGTCAGCTGGGGCTCCGGTTGCGGCGACCGCTACAAGCCGGGTGTGTACACC  120
+PVHZ021082416.1  24265550  ........A..............A.........A.............A..C........T  24265491
+
+Query_14         121       GACGTGGCCAACTACCTAGCCTGGATCCAGGAGCACACCTCTTTCTGACCG-CCTGGGAC  179
+PVHZ021082416.1  24265490  ......................................TG...CG......C........  24265431
+
+Query_14         180       TCATCTTTCCCTCCTGGGCAATTCTGGGATGGAAGCGTGGCTGAGGCGTGATCATGGATA  239
+PVHZ021082416.1  24265430  .GG.A.........----..----G.T...C.TG.A........C..AG.....CA....  24265379
+
+Query_14         240       GCAAGGACTGTGTTCCATCCCCCCCA  265
+PVHZ021082416.1  24265378  .......T.....C....T.......  24265353
+
+
+Lambda      K        H
+   0.634    0.408    0.912 
+
+Gapped
+Lambda      K        H
+   0.625    0.410    0.780 
+
+Effective search space used: 636543183921
+
+
+  Database: GCA_004024965.2_ASM402496v2_genomic.fna
+    Posted date:  Feb 4, 2026  4:38 PM
+  Number of letters in database: 2,589,955,488
+  Number of sequences in database:  1,082,489
+
+
+
+Matrix: blastn matrix 2 -3
+Gap Penalties: Existence: 5, Extension: 2
+Window for multiple hits: 40

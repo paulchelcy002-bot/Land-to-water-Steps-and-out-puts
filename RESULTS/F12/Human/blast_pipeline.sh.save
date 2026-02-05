@@ -1,0 +1,135 @@
+#!/bin/bash
+
+
+
+############################################
+# PART 1: Create BLAST databases
+############################################
+
+for dir in "$SPECIES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "===================================="
+    echo "Creating BLAST database for: $species"
+    echo "===================================="
+
+    if ls "$dir"/*.fna 1>/dev/null 2>&1; then
+        makeblastdb \
+            -in "$dir"/*.fna \
+            -dbtype nucl \
+            -parse_seqids \
+            -out "$dir/$species"
+    else
+        echo "⚠️  No .fna file found in $species — skipping"
+    fi
+done
+
+
+############################################
+# PART 2: blastn-short (outfmt 3)
+############################################
+
+for dir in "$SPECIES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running blastn-short (outfmt 3) for $species"
+    echo "=============================================="
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt 3 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "$RESULTS_DIR/Human_F12_vs_${species}.blast"
+done
+
+
+############################################
+# PART 3: blastn-short (outfmt 6)
+############################################
+
+for dir in "$SPECIES_DIR"/*/; do
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running blastn-short (outfmt 6) for $species"
+    echo "=============================================="
+
+    blastn \
+      -task blastn-short \
+      -query "$QUERY" \
+      -db "$dir/$species" \
+      -outfmt 6 \
+      -evalue 0.001 \
+      -dust no \
+      -num_threads 8 \
+      -out "$RESULTS_DIR/Human_F12_vs_${species}_pairwise.tsv"
+done
+
+
+############################################
+# PART 4A: dc-megablast (outfmt 6)
+############################################
+
+for dir in */; do
+    # Skip GENE folder
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running dc-megablast (outfmt 6) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$species" \
+      -evalue 0.001 \
+      -outfmt "6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore stitle" \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_dcmegablast.tsv"
+
+    cd ..
+done
+
+
+
+############################################
+# PART 4B: dc-megablast (outfmt 3)
+############################################
+
+for dir in */; do
+    if [ "$dir" = "GENE/" ]; then
+        continue
+    fi
+
+    species=$(basename "$dir")
+
+    echo "=============================================="
+    echo "Running dc-megablast (outfmt 3) for $species"
+    echo "=============================================="
+
+    cd "$dir" || continue
+
+    blastn \
+      -task dc-megablast \
+      -query "$QUERY" \
+      -db "$species" \
+      -evalue 0.001 \
+      -outfmt 3 \
+      -dust no \
+      -num_threads 8 \
+      -out "Human_F12_vs_${species}_dcmegablast.txt"
+
+    cd ..
+done
